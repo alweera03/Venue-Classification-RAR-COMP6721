@@ -15,3 +15,19 @@ The datasets used for this project can be accessed from the following links:
 - [Gym Dataset 2](https://www.kaggle.com/datasets/hasyimabdillah/workoutexercises-images)
 - [Library Dataset](https://images.cv/dataset/library-image-classification-dataset)
 
+## Models
+### Supervised Decision Tree Classifier
+The supervised model is trained using labelled data from the above-mentioned datasets. This model learns to classify images based on the features present in the labeled examples.
+
+### Semi-Supervised Decision Tree Classifier
+The semi-supervised model leverages both labelled and unlabeled data to improve classification performance. It initially trains on the labeled data and then refines its understanding using the unlabeled data.
+
+### Training Process
+1. **Data Preprocessing**: Images are resized and normalized to ensure consistency.
+2. **Feature Extraction**: Features are extracted from the images using techniques like Histogram of Oriented Gradients (HOG) or convolutional layers.
+3. **Model Training**: The decision tree classifiers are trained on the extracted features.
+4. **Evaluation**: The models are evaluated on a separate validation set using metrics such as accuracy, precision, recall, and F1-score.
+
+### IPython Notebook
+For detailed walkthroughs and explanations of the training process and results, refer to the IPython Notebook files (`*COMP6721_Venue_Classification code.ipynb`).
+
