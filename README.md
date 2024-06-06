@@ -24,7 +24,7 @@ The semi-supervised model leverages both labelled and unlabeled data to improve 
 
 ### Training Process
 1. **Data Preprocessing**: Images are resized and normalized to ensure consistency.
-2. **Feature Extraction**: Features are extracted from the images using techniques like Histogram of Oriented Gradients (HOG) or convolutional layers.
+2. **Feature Extraction**: Features are extracted from the images using color histogram and the grayscale pixels of the images
 3. **Model Training**: The decision tree classifiers are trained on the extracted features.
 4. **Evaluation**: The models are evaluated on a separate validation set using metrics such as accuracy, precision, recall, and F1-score.
 
