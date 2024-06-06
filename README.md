@@ -29,4 +29,4 @@ The semi-supervised model leverages both labelled and unlabeled data to improve 
 4. **Evaluation**: The models are evaluated on a separate validation set using metrics such as accuracy, precision, recall, and F1-score.
 
 ### IPython Notebook
-For detailed walkthroughs and explanations of the training process and results, refer to the IPython Notebook files [COMP6721_Venue_Classification.ipynb](models/COMP6721_Venue_Classification.ipynb).
+For detailed walkthroughs and explanations of the training process and results, refer to the IPython Notebook files [COMP6721_Venue_Classification.ipynb](COMP6721_Venue_Classification.ipynb).
