@@ -17,10 +17,10 @@ The datasets used for this project can be accessed from the following links:
 
 ## Models
 ### Supervised Decision Tree Classifier
-The supervised model is trained using labelled data from the above-mentioned datasets. This model learns to classify images based on the features present in the labeled examples.
+The supervised model is trained using labelled data from the above-mentioned datasets. This model learns to classify images based on the features present in the labelled examples.
 
 ### Semi-Supervised Decision Tree Classifier
-The semi-supervised model leverages both labelled and unlabeled data to improve classification performance. It initially trains on the labeled data and then refines its understanding using the unlabeled data.
+The semi-supervised model leverages both labelled and unlabeled data to improve classification performance. It initially trains on the labelled data and then refines its understanding using the unlabeled data.
 
 ### Training Process
 1. **Data Preprocessing**: Images are resized and normalized to ensure consistency.
