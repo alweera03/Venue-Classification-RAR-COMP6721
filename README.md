@@ -28,5 +28,6 @@ The semi-supervised model leverages both labelled and unlabeled data to improve 
 3. **Model Training**: The supervised and semi-supervised decision tree classifiers are trained on the extracted features with different hyperparameters.
 4. **Evaluation**: The models are evaluated on a separate validation set using metrics such as accuracy, precision, recall, and F1-score.
 
-### IPython Notebook
-For detailed walkthroughs and explanations of the training process and results, refer to the IPython Notebook file [COMP6721_Venue_Classification code.ipynb](COMP6721_Venue_Classification%20code.ipynb).
+### IPython Notebook Update: Supervised and Semi-Supervised Decision Tree Classification
+
+For detailed insights into the training process, results, and comparisons between supervised and semi-supervised decision tree classification, refer the IPython Notebook file [here](COMP6721_Venue_Classification%20code.ipynb).
