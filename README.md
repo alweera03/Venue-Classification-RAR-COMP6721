@@ -30,4 +30,4 @@ The semi-supervised model leverages both labelled and unlabeled data to improve 
 
 ### IPython Notebook Update: Supervised and Semi-Supervised Decision Tree Classification
 
-For detailed insights into the training process, results, and comparisons between supervised and semi-supervised decision tree classification, refer the IPython Notebook file [here](COMP6721_Venue_Classification%20code.ipynb).
+For detailed insights into the training process, results, and comparisons between supervised and semi-supervised decision tree classification, refer the IPython Notebook file [here](Supervised%20and%20Semi-Supervised%20Decision%20Tree%20Classification.ipynb).
