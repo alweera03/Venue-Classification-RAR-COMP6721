@@ -207,19 +207,13 @@ To run the project, ensure you have the following dependencies installed:
 - `torch` (for PyTorch models)
 - `torchvision` (for PyTorch models)
 
-Install dependencies using `pip`:
-
-```bash
-pip install numpy opencv-python scikit-learn torch torchvision
 
 ## Pre-trained Models
-- Download Model 1: https://drive.google.com/uc?export=download&id=1-1dG-cW7nnl-wyuyb3-jKk2N1Ihhuerk
-- Download Model 2: https://drive.google.com/uc?export=download&id=1d9aiEwJc1kx4UgBc9yActoMbBZviI8VS
-- Download Model 3: https://drive.google.com/uc?export=download&id=1_Is_iL0SJOmfOFYj7BR3r6pu3Yc614l1
-
+- [Download Model 1](https://drive.google.com/uc?export=download&id=1-1dG-cW7nnl-wyuyb3-jKk2N1Ihhuerk)
+- [Download Model 2](https://drive.google.com/uc?export=download&id=1d9aiEwJc1kx4UgBc9yActoMbBZviI8VS)
+- [Download Model 3](https://drive.google.com/uc?export=download&id=1_Is_iL0SJOmfOFYj7BR3r6pu3Yc614l1)
 ## Usage
-1. Download the models from the link above,
-2. Load model.
-3. Preprocess input images according to the architecture od the the model.
-3. Obtain predictions on sample data.
-
+1. Download the models using the links provided above.
+2. Load the desired model in your project.
+3. Preprocess input images according to the requirements of the chosen model.
+4. Use the model to obtain predictions on your data.
