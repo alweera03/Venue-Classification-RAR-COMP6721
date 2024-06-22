@@ -174,10 +174,9 @@ The `VenueCNN_Modified` model architecture has been enhanced with additional lay
    - **ReLU**: Used after each convolutional and fully connected layer to introduce non-linearity.      
 
 ### Training Process
-1. **Data Preprocessing**: Images are resized and normalized to ensure consistency.
-2. **Feature Extraction**: Features are extracted from the images using colour histograms and the grayscale pixels of the images.
-3. **Model Training**: The CNN model is trained on the training dataset using the defined loss function and optimizer over 25 epochs.
-4. **Evaluation**: The trained model is evaluated on a separate validation dataset
+1. **Data Preprocessing**: Images are resized, normalized, and augmented (random horizontal flip, rotation, and crop) to enhance model generalization.
+2. **Model Training**: The CNN model (`VenueCNN_Modified`) is trained on the training dataset over 25 epochs using the defined loss function and optimizer. Training progress and validation metrics (loss, accuracy) are printed after each epoch.
+3. **Evaluation**: After training, the model is evaluated on a separate test dataset to assess its performance using metrics such as accuracy, precision, recall, and F1-score. A confusion matrix is also generated to visualize the classification results.
    
 
 
