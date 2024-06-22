@@ -1,29 +1,17 @@
-============================================================
-Venue Classification Project - COMP6721
-============================================================
+# Venue Classification Project-COMP6721
+This project focuses on classifying images into one of five venue categories using both supervised and semi-supervised decision tree classifiers, as well as convolutional neural networks (CNNs).
 
-Welcome to the Venue Classification Project repository. This project focuses on classifying images into one of five venue categories using a variety of machine learning techniques, including supervised and semi-supervised decision tree classifiers, as well as convolutional neural networks (CNNs).
-
-Table of Contents:
-------------------
-1. Introduction
-2. Datasets
-3. Models
-   3.1 Supervised Decision Tree Classifier
-   3.2 Semi-Supervised Decision Tree Classifier
-   3.3 Convolutional Neural Networks (CNNs)
-       3.3.1 Model 1
-       3.3.2 Model 2
-       3.3.3 Model 3
-4. IPython Notebooks
-5. Installation
-6. Pre-trained Models
-7. Usage
-  
+## Table of Contents
+- [Introduction](#introduction)
+- [Datasets](#datasets)
+- [Models](#models)
+- [IPython Notebooks](#ipython-notebooks)
+- [Installation](#installation)
+- [Pre-trained Models](#pre-trained-models)
+- [Usage](#usage)
 
 ## Introduction
 This project implements machine learning models to classify images into five venue categories: Airport, Beach, Restaurant, Library, and Gym. It includes both traditional supervised learning and semi-supervised learning techniques for decision tree classifiers, as well as deep learning with CNNs.
-This project focuses on classifying images into one of five venue categories: Airport, Beach, Restaurant, Library, and Gym. We have trained both supervised and semi-supervised decision tree classifiers to achieve this goal.
 
 
 ## Datasets
