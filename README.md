@@ -1,6 +1,9 @@
 # Venue Classification Project-COMP6721
 This project focuses on classifying images into one of five venue categories using both supervised and semi-supervised decision tree classifiers, as well as convolutional neural networks (CNNs).
 
+Find the code and project details on GitHub:
+- [GitHub Repository](https://github.com/alweera03/Venue-Classification-RAR-COMP6721)
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Datasets](#datasets)
