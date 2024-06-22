@@ -1,10 +1,21 @@
-# Venue Classification Project
-
-This project focuses on classifying images into one of five venue categories: Airport, Beach, Restaurant, Library, and Gym. We have trained both supervised and semi-supervised decision tree classifiers to achieve this goal.
+# Venue Classification Project-COMP6721
+This project focuses on classifying images into one of five venue categories using both supervised and semi-supervised decision tree classifiers, as well as convolutional neural networks (CNNs).
 
 ## Table of Contents
+- [Introduction](#introduction)
 - [Datasets](#datasets)
 - [Models](#models)
+- [IPython Notebooks](#ipython-notebooks)
+- [Installation](#installation)
+- [Pre-trained Models](#pre-trained-models)
+- [Usage](#usage)
+
+  
+
+## Introduction
+This project implements machine learning models to classify images into five venue categories: Airport, Beach, Restaurant, Library, and Gym. It includes both traditional supervised learning and semi-supervised learning techniques for decision tree classifiers, as well as deep learning with CNNs.
+This project focuses on classifying images into one of five venue categories: Airport, Beach, Restaurant, Library, and Gym. We have trained both supervised and semi-supervised decision tree classifiers to achieve this goal.
+
 
 ## Datasets
 The datasets used for this project can be accessed from the following links:
@@ -184,11 +195,31 @@ The `VenueCNN_Modified` model architecture has been enhanced with additional lay
 - [Download Model 3](https://drive.google.com/uc?export=download&id=1_Is_iL0SJOmfOFYj7BR3r6pu3Yc614l1)
 
 
-### IPython Notebook Update: Supervised and Semi-Supervised Decision Tree Classification
+## IPython Notebooks
+- [Supervised and Semi-Supervised Decision Tree Classification](Supervised%20and%20Semi-Supervised%20Decision%20Tree%20Classification.ipynb): Detailed notebook covering training, validation, and comparison of decision tree classifiers.
+- [Venue Classification using CNN](COMP6721_Venue_Classification_using_CNN.ipynb): Notebook focusing on CNN implementation for venue classification, including training and evaluation.
 
-For detailed insights into the training process, results, and comparisons between supervised and semi-supervised decision tree classification, refer the IPython Notebook file [here](Supervised%20and%20Semi-Supervised%20Decision%20Tree%20Classification.ipynb).
+## Installation
+To run the project, ensure you have the following dependencies installed:
+- `numpy`
+- `opencv-python`
+- `scikit-learn`
+- `torch` (for PyTorch models)
+- `torchvision` (for PyTorch models)
 
-### IPython Notebook Update: Venue Classification using CNN
+Install dependencies using `pip`:
 
-Explore the comprehensive implementation and results of venue classification using Convolutional Neural Networks (CNN) in the IPython Notebook file [here](COMP6721_Venue_Classification_using_CNN.ipynb). This notebook covers the following aspects:
+```bash
+pip install numpy opencv-python scikit-learn torch torchvision
+
+## Pre-trained Models
+- Download Model 1: https://drive.google.com/uc?export=download&id=1-1dG-cW7nnl-wyuyb3-jKk2N1Ihhuerk
+- Download Model 2: https://drive.google.com/uc?export=download&id=1d9aiEwJc1kx4UgBc9yActoMbBZviI8VS
+- Download Model 3: https://drive.google.com/uc?export=download&id=1_Is_iL0SJOmfOFYj7BR3r6pu3Yc614l1
+
+## Usage
+1. Download the models from the link above,
+2. Load model.
+3. Preprocess input images according to the architecture od the the model.
+3. Obtain predictions on sample data.
 
