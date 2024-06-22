@@ -175,7 +175,7 @@ The `VenueCNN_Modified` model architecture has been enhanced with additional lay
 
 ### Training Process
 1. **Data Preprocessing**: Images are resized, normalized, and augmented (random horizontal flip, rotation, and crop) to enhance model generalization.
-2. **Model Training**: The CNN model (`VenueCNN_Modified`) is trained on the training dataset over 25 epochs using the defined loss function and optimizer. Training progress and validation metrics (loss, accuracy) are printed after each epoch.
+2. **Model Training**: The CNN model is trained on the training dataset over 25 epochs using the defined loss function and optimizer. Training progress and validation metrics (loss, accuracy) are printed after each epoch.
 3. **Evaluation**: After training, the model is evaluated on a separate test dataset to assess its performance using metrics such as accuracy, precision, recall, and F1-score. A confusion matrix is also generated to visualize the classification results.
    
 
