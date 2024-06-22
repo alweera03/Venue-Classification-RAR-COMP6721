@@ -177,8 +177,11 @@ The `VenueCNN_Modified` model architecture has been enhanced with additional lay
 1. **Data Preprocessing**: Images are resized, normalized, and augmented (random horizontal flip, rotation, and crop) to enhance model generalization.
 2. **Model Training**: The CNN model is trained on the training dataset over 25 epochs using the defined loss function and optimizer. Training progress and validation metrics (loss, accuracy) are printed after each epoch.
 3. **Evaluation**: After training, the model is evaluated on a separate test dataset to assess its performance using metrics such as accuracy, precision, recall, and F1-score. A confusion matrix is also generated to visualize the classification results.
-   
+  
 
+- [Download Model 1](https://drive.google.com/uc?export=download&id=1-1dG-cW7nnl-wyuyb3-jKk2N1Ihhuerk)
+- [Download Model 2](https://drive.google.com/uc?export=download&id=1d9aiEwJc1kx4UgBc9yActoMbBZviI8VS)
+- [Download Model 3](https://drive.google.com/uc?export=download&id=1_Is_iL0SJOmfOFYj7BR3r6pu3Yc614l1)
 
 
 ### IPython Notebook Update: Supervised and Semi-Supervised Decision Tree Classification
